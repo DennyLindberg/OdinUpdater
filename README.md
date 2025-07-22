@@ -2,6 +2,8 @@
 
 A Sublime Text plugin for automatically installing and updating Odin and Odin Language Server (OLS) from source. Includes additional commands for adding Odin build systems and source folders to a project.
 
+<p align="center"><img src="preview.png"></p>
+
 This plugin was created for personal use while learning Odin and Sublime Text. Feel free to use and modify it as needed.
 
 > **Credit:** The plugin is based on the *getting-started-with-odin-in-sublime* tutorials and related gists by [Karl Zylinski](https://gist.github.com/karl-zylinski). The plugin is intended to automate most of the steps and make it easy to keep Odin and OLS updated to the latest version.
