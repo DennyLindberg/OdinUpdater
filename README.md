@@ -17,6 +17,18 @@ This plugin was created for personal use while learning Odin and Sublime Text. F
     - Add Odin build system to your project
     - Add Odin source folders for easy access
 
+## Requirements
+
+You need these applications for Odin Updater to do its thing.
+- Sublime Text 3 or 4
+    - [https://www.sublimetext.com/](https://www.sublimetext.com/)
+- Git for cloning and updating repositories for Odin and OLS
+    - [https://git-scm.com/](https://git-scm.com/)
+- MSVC Build tools for compiling Odin and OLS (pick one option)
+    - [Visual Studio (recommended)](https://visualstudio.microsoft.com/)
+    - [MSVC PortableBuildTools](https://github.com/Data-Oriented-House/)
+    - [MSVC Python installation script by mmozeiko](https://gist.github.com/mmozeiko/7f3162ec2988e81e56d5c4e22cde9977)
+
 ## Installation
 
 1. Copy files or clone the repository to **Packages/OdinUpdater**
@@ -55,11 +67,4 @@ This plugin was created for personal use while learning Odin and Sublime Text. F
 - [LSP](https://packagecontrol.io/packages/LSP) for Odin Language Server to work in Sublime Text
 - [Visual Studio Dark (color scheme)](https://packagecontrol.io/packages/Visual%20Studio%20Dark) because I like it
 
-## Requirements
 
-- Sublime Text 3 or 4
-- Git (for cloning and updating repositories)
-- MSVC Build tools for compiling Odin and OLS (pick one option)
-    - [Visual Studio (recommended)](https://visualstudio.microsoft.com/)
-    - [MSVC PortableBuildTools](https://github.com/Data-Oriented-House/)
-    - [MSVC Python installation script by mmozeiko](https://gist.github.com/mmozeiko/7f3162ec2988e81e56d5c4e22cde9977)
