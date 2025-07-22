@@ -4,6 +4,8 @@ A Sublime Text plugin for automatically installing and updating Odin and Odin La
 
 This plugin was created for personal use while learning Odin and Sublime Text. Feel free to use and modify it as needed.
 
+> **Credit:** The plugin is based on the *getting-started-with-odin-in-sublime* tutorials and related gists by [Karl Zylinski](https://gist.github.com/karl-zylinski). The plugin is intended to automate most of the steps and make it easy to keep Odin and OLS updated to the latest version.
+
 > **Disclaimer:** Parts of the code were AI-generated and manually rewritten to ensure proper functionality. The README was revised based on generated suggestions for grammar, clarity, and readability.
 
 ## Intended Use
