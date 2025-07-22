@@ -1,0 +1,68 @@
+[
+    {
+        "id": "tools",
+        "children": [
+            {
+                "id": "packages",
+                "children": [
+                    {
+                        "id": "OdinUpdater",
+                        "caption": "Odin Updater",
+                        "children": [
+                            { "command": "odin_updater", "caption": "Update Odin Compiler and OLS" },
+                            { "command": "add_odin_build_system", "caption": "Add Odin build system to project" },
+                            { "command": "add_odin_folders_to_project", "caption": "Add Odin source folders to project [base, core, examples, vendor]" },
+                        ]
+                    },
+                ]
+            }
+        ]
+    },
+    {
+        "id": "preferences",
+        "children":
+        [
+            {
+                "id": "package-settings",
+                "children":
+                [
+                    {
+                        "caption": "OdinUpdater",
+                        "children":
+                        [
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/OdinUpdater/OdinUpdater.sublime-settings"
+                                },
+                                "caption": "Settings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/OdinUpdater.sublime-settings"
+                                },
+                                "caption": "Settings – User"
+                            },
+                            { "caption": "-" },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/OdinUpdater/Default.sublime-keymap"
+                                },
+                                "caption": "Key Bindings – Default"
+                            },
+                            {
+                                "command": "open_file",
+                                "args": {
+                                    "file": "${packages}/User/Default.sublime-keymap"
+                                },
+                                "caption": "Key Bindings – User"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+]

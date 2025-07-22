@@ -1,0 +1,6 @@
+[
+    {
+        "caption": "OdinUpdater: Install/Update Odin Compiler and Odin Language Server",
+        "command": "odin_updater"
+    }
+]
